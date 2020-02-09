@@ -1,0 +1,13 @@
+ALGORITMO
+	DECLARE n1, n2 : INTEIRO
+	LEIA n1, n2
+	SE n1 > n2 ENTÃO
+		IMPRIMA n1 + " é maior que " + n2	
+	SENÃO
+		SE n1 = n2 ENTÃO
+			IMPRIMA "Os números são iguais."
+		SENÃO
+			IMPRIMA n2 + " é maior que " + n1
+		FIM SE
+	FIM SE
+FIM ALGORITMO

@@ -1,0 +1,20 @@
+ALGORITMO
+	DECLARE a, b, c, soma, maior : INTEIRO
+	LEIA a, b, c
+	soma ← a + b + c
+	SE a > b ENTÃO
+		SE a > c ENTÃO
+			maior ← a
+		SENÃO
+			maior ← c
+		FIM SE
+	SENÃO
+		SE b > c ENTÃO
+			maior ← b
+		SENÃO
+			maior ← c
+		FIM SE
+	FIM SE
+	IMPRIMA maior " foi o maior número informado."
+	IMPRIMA "Soma: " + soma
+FIM ALGORITMO

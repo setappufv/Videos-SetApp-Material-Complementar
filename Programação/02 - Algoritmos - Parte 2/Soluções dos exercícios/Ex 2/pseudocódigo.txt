@@ -1,0 +1,5 @@
+ALGORITMO
+	DECLARE pnome, sobrenome : LITERAL
+	LEIA pnome, sobrenome
+	IMPRIMA "Bem vindo, " + pnome + " " + sobrenome
+FIM ALGORITMO
